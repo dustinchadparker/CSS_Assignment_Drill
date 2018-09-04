@@ -1,14 +1,60 @@
 body {
-    margin: 0;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    background-color: lightgrey;
 }
-input, label {
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #2ac0fc;
+}
+
+.boxes {
     display: block;
+    margin: 0.1em;
+    padding: 0.1em;
+    border: solid black 0.1em;
+    border-radius: 1em;
+    width: 20%;
 
 }
-main {
-    margin-left: 3em;
+
+a:hover {
+    color: #d43e10;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
-button {
-    margin: 1em;
+.color-change {
+    font-weight: 200;
+    color: #05af3e;
+}
+
+#box4 {
+    background: yellow;
+}
+
+#box3 {
+    background: rgb(16, 139, 221)
+}
+
+#box2 {
+    background: pink;
+    
+    
+}
+
+#box1 {
+    background: orange;
+}
+
+.image-header {
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    position: absolute;   
+    display: inline-block;
 }
