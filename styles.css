@@ -13,6 +13,7 @@ a {
 }
 
 .boxes {
+    
     display: block;
     margin: 0.1em;
     padding: 0.1em;
@@ -51,10 +52,47 @@ a:hover {
     background: orange;
 }
 
+/* Why does adding an image increase distance from title to top border of div?*/
 .image-header {
-    width: 0.2em;
-    height: 0.2em;
+    width: 1.9em;
+    height: 1.9em;
     background-color: white;
-    position: absolute;   
-    display: inline-block;
+    position: relative;
+    top: 3.1em;   
+}
+
+h1 {
+    color: #1528da;
+}
+
+.orange-font, .orange-friends, #orangeFriend, .orange-travel, #orangeTravel, .orange-restaurant, #orangeRestaurant{
+    color: orange;
+}
+
+.purple-font, #purpleFriend, .purple-friends, .purple-travel, #purpleTravel, .purple-restaurant, #purpleRestaurant{
+    color: purple;
+}
+
+#show1, #greenFriend, .green-friends, #greenTravel, .green-travel, .green-restaurant, #greenRestaurant {
+    color: green;
+}
+#show2, #yellowFriend, .yellow-friends, #yellowTravel, .yellow-travel, .yellow-restaurant, #yellowRestaurant {
+    color: yellow;
+}
+#show3 {
+    color: gray;
+}
+#show4 {
+    color: black;
+}
+#show5 {
+    color: magenta;
+}
+
+#redFriend, .red-friends, #redTravel, .red-travel, .red-restaurant, #redRestaurant {
+    color: red;
+}
+
+.solid-black-border {
+    border: solid black 2px;
 }
